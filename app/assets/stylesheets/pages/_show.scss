@@ -1,8 +1,5 @@
-h1, h2, h3, a {
+h1, h2, h3{
   color: white;
-  a:hover {
-    color: $purple;
-  }
 }
 
 body {
@@ -12,9 +9,32 @@ body {
 }
 
 a {
-  padding: 20px;
+  font-size: 24px;
+  margin: 10px;
+  color: $blue;
+  font-weight: bold;
+  text-decoration: none;
+  a:hover{
+    color: $red;
+    text-decoration: none;
+  };
 }
 
-.form-medium {
-  width: 35%;
+ul {
+  padding: 0;
 }
+
+li {
+  font-size: 32px;
+  margin: 10px;
+  font-size: bolder;
+  list-style: none;
+}
+
+#dose_description, #dose_ingredient_id {
+  background: transparent;
+  border-radius: 25px;
+  border: 2px solid white;
+  color: white;
+}
+
