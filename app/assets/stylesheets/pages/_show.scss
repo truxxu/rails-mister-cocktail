@@ -31,6 +31,13 @@ li {
   list-style: none;
 }
 
+.cocktail-pic {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+}
+
 #dose_description, #dose_ingredient_id {
   background: transparent;
   border-radius: 25px;

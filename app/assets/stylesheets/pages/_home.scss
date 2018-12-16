@@ -1,4 +1,7 @@
-// Specific CSS for your home-page
+body {
+  background: linear-gradient(to top, #ee0979, #ff6a00);
+}
+
 h1, h2, h3, a {
   color: white;
   a:hover {
@@ -6,6 +9,13 @@ h1, h2, h3, a {
   }
 }
 
-body {
-  background: linear-gradient(to top, #ee0979, #ff6a00);
+.drinks-list {
+  padding: 10px;
+}
+
+.cocktail-pic-sm {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
 }

@@ -5,15 +5,13 @@
   </div>
 </div>
 
-<h2>Our selection of cocktails</h2>
-
-<div class="container">
-  <div class="row">
-    <% @cocktails.each do |cocktail| %>
-    <%= render 'components/card', input: cocktail %>
-    <% end %>
+<div class="drinks-list">
+  <h2 class="text-center">Our selection of cocktails</h2>
+  <div class="container">
+    <div class="row">
+      <% @cocktails.each do |cocktail| %>
+      <%= render 'components/card', input: cocktail %>
+      <% end %>
+    </div>
   </div>
 </div>
-
-
-

@@ -1,6 +1,7 @@
 <div class="col-md-4">
   <div class="card" style="">
     <h3><%= link_to input.name, cocktail_path(input) %></h3>
+    <%= cl_image_tag input.photo, class: "cocktail-pic-sm text-center"%>
   </div>
 </div>
 
